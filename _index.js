@@ -58,7 +58,7 @@ $(() => {
             // 開発時の実効ファイルの設定
             let path = exec_app_path.replace(/node_modules\\electron-prebuilt\\dist\\electron.exe/g, "");
             command = path + "win_bin\\diff -ur " + left_path + " " + right_path;
-        } else if (exec_app_path.match("dd_wml.exe"))  {
+        } else {
             // 本番時の実効ファイルの設定
             let path = exec_app_path.replace(/dd_wml.exe/g, "");
             command = path + "resources\\app\\win_bin\\diff -ur " + left_path + " " + right_path;
