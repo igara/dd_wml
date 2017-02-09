@@ -18,7 +18,7 @@ npm run [win, mac, linux]
 
 ## 使用ライブラリ  
 
-- [DiffUtils for Windows](http://gnuwin32.sourceforge.net/packages/diffutils.htm)
+- [DiffUtils for Windows](http://gnuwin32.sourceforge.net/packages/diffutils.htm)  
     Windows用のdiff起動に使用  
 
 - [diff2html](https://github.com/rtfpessoa/diff2html)  
