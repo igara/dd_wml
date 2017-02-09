@@ -1,0 +1,28 @@
+{
+  "name": "dd_wml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser": "./node_modules/.bin/electron main.js",
+    "win": "./node_modules/.bin/webpack && node build.js win32",
+    "mac": "./node_modules/.bin/webpack && node build.js darwin",
+    "linux": "./node_modules/.bin/webpack && node build.js linux"
+  },
+  "author": "",
+  "license": "GPL",
+  "devDependencies": {
+    "@types/diff2html": "0.0.2",
+    "@types/electron": "^1.4.31",
+    "@types/jquery": "^2.0.40",
+    "@types/node": "^7.0.5",
+    "@types/webpack": "^2.2.5",
+    "diff2html": "^2.0.12",
+    "electron-packager": "^8.5.1",
+    "electron-prebuilt": "^1.4.13",
+    "fs-extra": "^2.0.0",
+    "jquery": "^3.1.1",
+    "webpack": "^2.2.1"
+  }
+}

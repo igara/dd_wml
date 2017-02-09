@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    width: 45%;
+}
+.right {
+    width: 45%;
+}
+.input_title {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.input_area {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+#diff_area {
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>dd_wml - Dir Diff</title>
+  <meta name="description" content="">
+  <meta name="keywords" content=""/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="lib/diff2html/diff2html.min.css">
+
+  <script type="text/javascript" src="lib/diff2html/diff2html.min.js"></script>
+  <script type="text/javascript" src="lib/diff2html/diff2html-ui.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<div id="content">
+  <div id="menu_bar">
+    <div class="input_title">
+        <span class="left">left</span>
+        <span class="rigth">Right</span>
+    </div>
+    <div class="input_area">
+        <input type="file" id="dir_left" name="left_file[]"  class="left" webkitdirectory>
+        <input type="file" id="dir_right" name="right_file[]" class="right" webkitdirectory>
+    </div>
+    <button id="load">Load</button>
+  </div>
+  <dir id="diff_area">
+  </dir>
+</div>
+</body>
+</html>
