@@ -37,7 +37,7 @@ $(() => {
      */
     function execDiff(left_path, right_path) {
         var command = null;
-        if (process.platform == "Windows") {
+        if (process.platform == "win32") {
             command = getWinDiffCommand(left_path, right_path);
         } else {
             command = getUnixDiffCommand(left_path, right_path);

@@ -23,7 +23,7 @@ packager({
     platform: platform_arg,
     arch: "x64",
     overwrite: true,
-    asar: true,
+    //asar: true,
     prune: true,
     ignore: ".DS_Store|.gitignore|node_modules|sample_text|build.js|_index.js|readme.md|webpack.config.js|yarn.lock|dist",
 }, function done (err, appPath) {
